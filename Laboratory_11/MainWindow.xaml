@@ -1,0 +1,114 @@
+﻿<Window x:Class="Laboratory_11.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Support for multithreading and data streams" Height="525" Width="800"
+        FontFamily="Comic Sans MS"
+        Background="#333333">
+
+    <Grid>
+        <StackPanel VerticalAlignment="Top" HorizontalAlignment="Left" Margin="20,20,0,0" Height="294" Width="354">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label Content="Enter N:" Margin="10,10,10,10" Foreground="White" FontSize="20"/>
+                <TextBox Name="NTextBox" Grid.Column="1" Margin="10,15,25,15" FontSize="20">
+                    <TextBox.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="5"/>
+                        </Style>
+                    </TextBox.Resources>
+                </TextBox>
+            </Grid>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label Content="Enter K:" Margin="10,10,10,10" Foreground="White" FontSize="20"/>
+                <TextBox Name="KTextBox" Grid.Column="1" Margin="10,15,25,15" FontSize="20">
+                    <TextBox.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="5"/>
+                        </Style>
+                    </TextBox.Resources>
+                </TextBox>
+            </Grid>
+            <Button Content="Calculate with Task" Width="326" Margin="0,10,20,10" Click="CalculateTaskButton_Click" Height="35">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="5"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+            <Button Content="Calculate with Delegate" Width="326" Margin="0,10,20,10" Click="CalculateDelegateButton_Click" Height="35">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="5"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+            <Button Content="Calculate with Async/Await" Width="326" Margin="0,10,20,10" Click="CalculateAsyncButton_Click" Height="35">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="5"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+        </StackPanel>
+        <TextBox Name="ResultTextBox" Width="375" Margin="0,35,35,190" IsReadOnly="True" TextWrapping="Wrap" VerticalScrollBarVisibility="Auto" HorizontalAlignment="Right">
+            <TextBox.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </TextBox.Resources>
+        </TextBox>
+
+
+        <Grid Margin="20,300,35,10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" MinHeight="0"/>
+                <RowDefinition Height="Auto" MinHeight="84"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Label Content="Enter I:" Margin="10,10,10,10" Foreground="White" FontSize="20"/>
+            <TextBox Name="FibonacciTermsTextBox" Margin="120,15,400,15" FontSize="20">
+                <TextBox.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="5"/>
+                    </Style>
+                </TextBox.Resources>
+            </TextBox>
+
+            <Button Content="Start Fibonacci Calculation" Width="325" Height="35" VerticalAlignment="Top" HorizontalAlignment="Left" Click="StartFibonacciCalculation_Click" Grid.Row="1" Margin="5,0,0,0">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="5"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+
+            <ProgressBar x:Name="ProgressBar" Grid.Row="1" Height="35" VerticalAlignment="Top" Margin="5,55,0,0" Visibility="Visible" Grid.RowSpan="3"/>
+        </Grid>
+
+        <Grid>
+            <Button Name="CompressButton" Content="Compress Files" Click="CompressFiles_OnClick" HorizontalAlignment="Left" VerticalAlignment="Top" Width="175" Height="80" Margin="375,315,0,0">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="5"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+            <Button Name="DecompressButton" Content="Decompress Files" Click="DecompressFiles_OnClick" HorizontalAlignment="Left" VerticalAlignment="Top" Width="175" Height="80" Margin="575,315,0,0">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="5"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+        </Grid>
+
+    </Grid>
+</Window>

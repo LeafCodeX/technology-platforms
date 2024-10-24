@@ -1,0 +1,16 @@
+C:\Users\marci\source\repos\Laboratory_11\obj\Debug\net4.7.2-windows\Laboratory_11.csproj.AssemblyReference.cache
+C:\Users\marci\source\repos\Laboratory_11\obj\Debug\net4.7.2-windows\Laboratory_11.csproj.SuggestedBindingRedirects.cache
+C:\Users\marci\source\repos\Laboratory_11\obj\Debug\net4.7.2-windows\MainWindow.g.cs
+C:\Users\marci\source\repos\Laboratory_11\obj\Debug\net4.7.2-windows\App.g.cs
+C:\Users\marci\source\repos\Laboratory_11\obj\Debug\net4.7.2-windows\Laboratory_11_MarkupCompile.cache
+C:\Users\marci\source\repos\Laboratory_11\bin\Debug\net4.7.2-windows\Laboratory_11.exe.config
+C:\Users\marci\source\repos\Laboratory_11\bin\Debug\net4.7.2-windows\Laboratory_11.exe
+C:\Users\marci\source\repos\Laboratory_11\bin\Debug\net4.7.2-windows\Laboratory_11.pdb
+C:\Users\marci\source\repos\Laboratory_11\obj\Debug\net4.7.2-windows\MainWindow.baml
+C:\Users\marci\source\repos\Laboratory_11\obj\Debug\net4.7.2-windows\Laboratory_11.g.resources
+C:\Users\marci\source\repos\Laboratory_11\obj\Debug\net4.7.2-windows\Laboratory_11.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marci\source\repos\Laboratory_11\obj\Debug\net4.7.2-windows\Laboratory_11.AssemblyInfoInputs.cache
+C:\Users\marci\source\repos\Laboratory_11\obj\Debug\net4.7.2-windows\Laboratory_11.AssemblyInfo.cs
+C:\Users\marci\source\repos\Laboratory_11\obj\Debug\net4.7.2-windows\Laboratory_11.csproj.CoreCompileInputs.cache
+C:\Users\marci\source\repos\Laboratory_11\obj\Debug\net4.7.2-windows\Laboratory_11.exe
+C:\Users\marci\source\repos\Laboratory_11\obj\Debug\net4.7.2-windows\Laboratory_11.pdb

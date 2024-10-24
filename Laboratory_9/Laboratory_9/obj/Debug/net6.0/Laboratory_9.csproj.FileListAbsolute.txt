@@ -1,0 +1,15 @@
+C:\Users\marci\source\repos\Laboratory_9\Laboratory_9\obj\Debug\net6.0\Laboratory_9.csproj.AssemblyReference.cache
+C:\Users\marci\source\repos\Laboratory_9\Laboratory_9\obj\Debug\net6.0\Laboratory_9.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marci\source\repos\Laboratory_9\Laboratory_9\obj\Debug\net6.0\Laboratory_9.AssemblyInfoInputs.cache
+C:\Users\marci\source\repos\Laboratory_9\Laboratory_9\obj\Debug\net6.0\Laboratory_9.AssemblyInfo.cs
+C:\Users\marci\source\repos\Laboratory_9\Laboratory_9\obj\Debug\net6.0\Laboratory_9.csproj.CoreCompileInputs.cache
+C:\Users\marci\source\repos\Laboratory_9\Laboratory_9\bin\Debug\net6.0\Laboratory_9.exe
+C:\Users\marci\source\repos\Laboratory_9\Laboratory_9\bin\Debug\net6.0\Laboratory_9.deps.json
+C:\Users\marci\source\repos\Laboratory_9\Laboratory_9\bin\Debug\net6.0\Laboratory_9.runtimeconfig.json
+C:\Users\marci\source\repos\Laboratory_9\Laboratory_9\bin\Debug\net6.0\Laboratory_9.dll
+C:\Users\marci\source\repos\Laboratory_9\Laboratory_9\bin\Debug\net6.0\Laboratory_9.pdb
+C:\Users\marci\source\repos\Laboratory_9\Laboratory_9\obj\Debug\net6.0\Laboratory_9.dll
+C:\Users\marci\source\repos\Laboratory_9\Laboratory_9\obj\Debug\net6.0\refint\Laboratory_9.dll
+C:\Users\marci\source\repos\Laboratory_9\Laboratory_9\obj\Debug\net6.0\Laboratory_9.pdb
+C:\Users\marci\source\repos\Laboratory_9\Laboratory_9\obj\Debug\net6.0\Laboratory_9.genruntimeconfig.cache
+C:\Users\marci\source\repos\Laboratory_9\Laboratory_9\obj\Debug\net6.0\ref\Laboratory_9.dll

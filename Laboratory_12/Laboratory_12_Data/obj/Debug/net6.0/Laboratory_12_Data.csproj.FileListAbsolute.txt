@@ -1,0 +1,12 @@
+C:\Users\marci\source\repos\Laboratory_12\Laboratory_12_Data\bin\Debug\net6.0\Laboratory_12_Data.deps.json
+C:\Users\marci\source\repos\Laboratory_12\Laboratory_12_Data\bin\Debug\net6.0\Laboratory_12_Data.dll
+C:\Users\marci\source\repos\Laboratory_12\Laboratory_12_Data\bin\Debug\net6.0\Laboratory_12_Data.pdb
+C:\Users\marci\source\repos\Laboratory_12\Laboratory_12_Data\obj\Debug\net6.0\Laboratory_12_Data.csproj.AssemblyReference.cache
+C:\Users\marci\source\repos\Laboratory_12\Laboratory_12_Data\obj\Debug\net6.0\Laboratory_12_Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marci\source\repos\Laboratory_12\Laboratory_12_Data\obj\Debug\net6.0\Laboratory_12_Data.AssemblyInfoInputs.cache
+C:\Users\marci\source\repos\Laboratory_12\Laboratory_12_Data\obj\Debug\net6.0\Laboratory_12_Data.AssemblyInfo.cs
+C:\Users\marci\source\repos\Laboratory_12\Laboratory_12_Data\obj\Debug\net6.0\Laboratory_12_Data.csproj.CoreCompileInputs.cache
+C:\Users\marci\source\repos\Laboratory_12\Laboratory_12_Data\obj\Debug\net6.0\Laboratory_12_Data.dll
+C:\Users\marci\source\repos\Laboratory_12\Laboratory_12_Data\obj\Debug\net6.0\refint\Laboratory_12_Data.dll
+C:\Users\marci\source\repos\Laboratory_12\Laboratory_12_Data\obj\Debug\net6.0\Laboratory_12_Data.pdb
+C:\Users\marci\source\repos\Laboratory_12\Laboratory_12_Data\obj\Debug\net6.0\ref\Laboratory_12_Data.dll

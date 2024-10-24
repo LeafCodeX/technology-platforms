@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\marci\\OneDrive\\Pulpit\\PT_Lab8\\technology-platforms-main\\Lab_8\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9168321D-6197-4D15-B9B2-A228CDB7ACC5}|Lab_8\\Lab_8.csproj|c:\\users\\marci\\onedrive\\pulpit\\pt_lab8\\technology-platforms-main\\lab_8\\lab_8\\lab_8.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9168321D-6197-4D15-B9B2-A228CDB7ACC5}|Lab_8\\Lab_8.csproj|solutionrelative:lab_8\\lab_8.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Lab_8",
+              "DocumentMoniker": "C:\\Users\\marci\\OneDrive\\Pulpit\\PT_Lab8\\technology-platforms-main\\Lab_8\\Lab_8\\Lab_8.csproj",
+              "RelativeDocumentMoniker": "Lab_8\\Lab_8.csproj",
+              "ToolTip": "C:\\Users\\marci\\OneDrive\\Pulpit\\PT_Lab8\\technology-platforms-main\\Lab_8\\Lab_8\\Lab_8.csproj*",
+              "RelativeToolTip": "Lab_8\\Lab_8.csproj*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-05T23:51:30.752Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+﻿<Window x:Class="Laboratory_10.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Laboratory_10"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="470" Width="800" Margin="20">
+    <StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="0 10 10 10">
+            <Label Height="25" Width="80" Content="Search:" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <TextBox Margin="5,5,5,5" Name="SearchTextBox" Width="100"/>
+            <Label Content="Search (tag):" Height="25" Width="80" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+            <ComboBox Height="25" Margin="5" Width="120" Name="ComboBox" />
+            <Button Content="Search" Margin="5" Click="Search_Button" />
+            <Button Content="Reset" Margin="5" Click="Reset_Button" />
+
+            <Button Content="Sort Model" Click="Sort_Model" Margin="85 5 10 5" />
+            <Button Content="Sort Year" Click="Sort_Year" Margin="0 5 10 5" />
+            <Button Content="Sort Motor" Click="Sort_Motor" Margin="0 5 10 5" />
+        </StackPanel>
+
+        <DataGrid x:Name="CarsDataGrid" AutoGenerateColumns="True" PreviewKeyDown="HandleKeyPress" />
+
+        <StackPanel Orientation="Vertical" Margin="10 10 0 10">
+            <StackPanel Orientation="Horizontal" Margin="10 0 5 0">
+                <TextBlock Text="Model:" Margin="5 0 0 0" VerticalAlignment="Center" />
+                <TextBox x:Name="Model" Margin="5" Width="150" />
+                <TextBlock Text="EngineModel:" Margin="5 0 0 0" VerticalAlignment="Center" />
+                <TextBox x:Name="EngineModel" Margin="5" Width="150" />
+                <TextBlock Text="Horsepower:" Margin="5 0 0 0" VerticalAlignment="Center" />
+                <TextBox x:Name="Horsepower" Margin="5" Width="150" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="10 10 5 0">
+                <TextBlock Text="Displacement:" Margin="5 0 0 0" VerticalAlignment="Center" />
+                <TextBox x:Name="Displacement" Margin="5" Width="150" />
+                <TextBlock Text="Year:" Margin="5 0 0 0" VerticalAlignment="Center" />
+                <TextBox x:Name="Year" Margin="5" Width="150" />
+            </StackPanel>
+        </StackPanel>
+        <Button Content="Add" Margin="10 0 10 10" Click="Add_Button" />
+    </StackPanel>
+</Window>
